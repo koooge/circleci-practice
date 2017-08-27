@@ -8,6 +8,7 @@ jobs:
           name: server run
           command: |
             cd server
+            npm install
             npm start
       - run:
           name: client exec GET /
