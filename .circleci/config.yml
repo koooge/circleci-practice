@@ -9,7 +9,7 @@ jobs:
           command: |
             cd server
             npm install
-            npm start
+            npm start &
       - run:
           name: client exec GET /
           command: |
