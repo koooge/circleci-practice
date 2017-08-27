@@ -13,5 +13,6 @@ jobs:
       - run:
           name: client exec GET /
           command: |
+            px aux | grep node
             cd client
             ./get.sh
